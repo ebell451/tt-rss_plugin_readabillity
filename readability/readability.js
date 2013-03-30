@@ -15,7 +15,7 @@
 			onComplete: function(transport) {
 				var ti = JSON.parse(transport.responseText);
 
-				var share_url = "https://www.readability.com/login/?next=/save?url" + param_escape(ti.link);
+				var share_url = "http://www.readability.com/save?url=" + param_escape(ti.link);
 
 				w.location.href = share_url;
 
