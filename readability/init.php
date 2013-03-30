@@ -26,7 +26,7 @@ class readability extends Plugin {
 		$rv = "<img src=\"plugins/readability/readability.png\"
 			class='tagsPic' style=\"cursor : pointer\"
 			onclick=\"viewArticleinReadability($article_id)\"
-			title='".__('Text only view of article.')."'>";
+			title='".__('Add this article to Readability - Later.')."'>";
 
 		return $rv;
 	}
