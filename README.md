@@ -3,6 +3,6 @@ tt-rss_plugin_readability
 
 This is a plugin for Tiny Tiny RSS (tt-rss). It allows you to add articles to Readability.
 
-Place the following files into a subdirectory of your tt-rss/plugins folder. Then enable the plugin in preferences.
+Place the readability folder into the plugin folder (tt-rss/plugins) of your tt-rss installation. Then enable the plugin in preferences.
 
-More information can be found here:
+More information can be found here: http://tt-rss.org/forum/viewtopic.php?f=22&t=1600 or https://github.com/ebell451/tt-rss_plugin_readabillity.
