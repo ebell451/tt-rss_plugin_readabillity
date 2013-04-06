@@ -11,7 +11,7 @@ class readability extends Plugin {
 	}
 
 	function about() {
-		return array(1.0,
+		return array(1.5,
 			"This will allow you to add articles to Readability.",
 			"ebell451");
 	}
