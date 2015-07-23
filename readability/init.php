@@ -22,7 +22,7 @@ class readability extends Plugin {
 	function hook_article_button($line) {
 		$article_id = $line["id"];
 
-		$rv = "<img src=\"plugins/readability/readability.png\"
+		$rv = "<img src=\"plugins.local/readability/readability.png\"
 			class='tagsPic' style=\"cursor : pointer\"
 			onclick=\"viewArticleinReadability($article_id)\"
 			title='".__('Add this article to Readability - Later.')."'>";
